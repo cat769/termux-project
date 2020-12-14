@@ -46,8 +46,9 @@ fi
 if [ $choice = 4 ]
 then
     clear
-    toilet -f big -F gay "kevin special ping to his wifi tool"
-    ping -s1000 192.168.18.1
+    read -p "choose the ip you want to ping:" ping
+    toilet -f big -F gay "kevin special ping to ip wifi"
+    ping -s1000 $ping
 fi
 if [ $choice = 5 ]
 then
