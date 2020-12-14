@@ -1,5 +1,5 @@
 clear
-password="babon kanibal"
+password="wmsmnx and linghochung"
 read -p "enter the code  here:" pass
 if [ "$password" != "$pass" ]
 then
