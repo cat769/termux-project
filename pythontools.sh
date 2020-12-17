@@ -1,7 +1,7 @@
 clear
-password="wmsmnx and linghochung"
+password="im learning"
 read -p "enter the code  here:" pass
-if [ "$password" != "$pass" ]
+if [ "$pass" != "$password" ]
 then
 exit
 fi
@@ -23,7 +23,7 @@ then
     echo "python installing..."
     apt update && apt upgrade
     apt install python
-    echo "python installed"
+    echo "python installed!"
 fi
 if [ $choice = 2 ]
 then
